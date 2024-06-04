@@ -1,0 +1,14 @@
+# speed
+
+![speed in action](https://i.imgur.com/OJn4CBA.gif)
+
+Speed read text in the terminal. Just pipe your stdin and be ready to GO!
+`speed.js` accepts two arguments. The first is the speed (default: 250) in words
+per minute and the second is the word number to begin at (default: 1). Use
+`ctrl-c` to quit. When quitting, the command to resume where you left off is
+printed to stdout.
+
+```sh
+cat poem.txt | speed 700
+curl -s 'https://baconipsum.com/api/?type=meat-and-filler&format=text' | speed 500
+```

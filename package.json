@@ -1,0 +1,13 @@
+{
+  "name": "@rasch/speed",
+  "version": "0.1.0",
+  "description": "speed read stdin",
+  "type": "module",
+  "bin": { "speed": "./index.js" },
+  "keywords": [
+    "speed",
+    "read"
+  ],
+  "author": "Randy Schneck <i@rasch.co>",
+  "license": "0BSD"
+}
