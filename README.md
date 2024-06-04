@@ -12,3 +12,24 @@ printed to stdout.
 cat poem.txt | speed 700
 curl -s 'https://baconipsum.com/api/?type=meat-and-filler&format=text' | speed 500
 ```
+
+## install
+
+```sh
+pnpm add --global @rasch/speed
+```
+
+<details><summary>npm</summary><p>
+
+```sh
+npm install --global @rasch/speed
+```
+
+</p></details>
+<details><summary>yarn</summary><p>
+
+```sh
+yarn global add @rasch/speed
+```
+
+</p></details>
